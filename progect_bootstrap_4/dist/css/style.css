@@ -1,0 +1,97 @@
+/*Базовые стили*/
+body{
+margin: 0;
+font-family: 'Tahoma', sans-serif;
+}
+img{
+	max-height: 100%;
+}
+/*======Header начало===============*/
+.header{
+	margin-top: 77px;
+	margin-bottom: 96px;
+}
+
+.header-text{
+	color: #000000;
+}
+.header-text__title{
+font-size: 48px;
+margin-bottom: 15px;
+font-weight: 700;
+}
+.header-text__subtitle{
+	font-size: 30px;
+font-weight: 400;
+margin-bottom: 35px;
+}
+.header-title__descr{
+font-size: 18px;
+line-height: 27px;
+font-weight: 400;
+margin-bottom: 47px;
+}
+.header-text__price{
+	font-size: 48px;
+font-weight: 400;
+color: #313131;
+margin-bottom: 53px;
+}
+
+.button{
+	border: 2px solid #f05a22;
+	background-color: #f05a22;
+border-radius: 5.0px;
+font-size: 24px;
+font-weight: 700;
+color: #ffffff;
+padding: 22px 43px;
+margin-bottom: 20px;
+}
+.button-o{
+	background-color: transparent;
+	border: 2px solid #f05a22;
+	color: #f05a22;
+	padding: 22px 30px;
+	margin-left: 40px;
+}
+/*=============Header конец==================*/
+/*=============Features начало==============*/
+.features{
+	margin-bottom: 89px;
+	background-color: #f2f2f2;
+	padding-top: 89px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+.features-title{
+font-size: 30px;
+font-weight: 700;
+color: #333333;
+margin-bottom: 91px;
+}
+
+.features-block__img{
+	min-height:55px;
+	margin-bottom: 16px;
+}
+.features-block__text{
+	font-size: 18px;
+line-height: 22px;
+font-weight: 400;
+color: #333333;
+margin-bottom: 30px;
+}
+/*=============Features конец================*/
+.comments{}
+.comments-title{
+	font-size: 30px;
+line-height: 27px;
+font-weight: 700;
+color: #333333;
+text-align: center;
+margin-bottom: 69px;
+}
+.comments-img img{
+padding-bottom: 40px;
+}
